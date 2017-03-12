@@ -3,3 +3,6 @@ git_gc = git gc "$@"
 jobs = 5
 
 include = cat ~/.config/mr/config.d/*
+
+[.config/base16-shell]
+checkout = git clone 'https://github.com/chriskempson/base16-shell.git' 'base16-shell'
